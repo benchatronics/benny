@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-1ywt&rz=6s9wje_c!tcmqs*9)iw&@we*kmtb-g)gyx0@#zg60r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['codewithbenny.herokuapp.com/','localhost','127.0.0.1',]
-USE_TZ = True
+ALLOWED_HOSTS = ['codewithbenny.herokuapp.com','localhost','127.0.0.1',]
+
 
 
 # Application definition
@@ -114,7 +114,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-TIME_ZONE = 'Europe/Istanbul'
 
 
 # Static files (CSS, JavaScript, Images)
